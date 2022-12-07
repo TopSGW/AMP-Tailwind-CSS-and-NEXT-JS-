@@ -68,7 +68,7 @@ export default function BodyPart5(){
                                     en Australia
                                 </h1>
                                 <p className='text-[#606060] text-xs leading-tight pb-2 pr-1'
-                                 style={{fontFamily:'Museo300'}}>
+                                 style={{fontFamily:'GothamLight'}}>
                                     Sin importar tu nivel de Inglés, en
                                     Australia encontrarás diferentes
                                     opciones para estudiar este idioma
@@ -84,7 +84,7 @@ export default function BodyPart5(){
                                         o VET                                
                                 </h1>
                                 <p className='text-white text-xs leading-tight pb-2 pr-1'
-                                    style={{fontFamily:'Museo300'}}>
+                                    style={{fontFamily:'GothamLight'}}>
                                         Son cursos técnicos que te
                                         ayudarán a adquirir más habilidades
                                         en ciertos campos y áreas de trabajo.
@@ -99,7 +99,7 @@ export default function BodyPart5(){
                                     TAFE                                
                                 </h1>
                                 <p className='text-white text-xs leading-tight pb-2 pr-1'
-                                    style={{fontFamily:'Museo300'}}>
+                                    style={{fontFamily:'GothamLight'}}>
                                     Son muy similares a los cursos
                                     vocacionales pero son de mayor
                                     calidad y precio. La mayor diferencia
@@ -117,7 +117,7 @@ export default function BodyPart5(){
                                     universitarias
                                 </h1>
                                 <p className='text-[#606060] text-xs leading-tight pb-2 pr-1'
-                                    style={{fontFamily:'Museo300'}}>
+                                    style={{fontFamily:'GothamLight'}}>
                                     Australia cuenta con una amplia lista
                                     de universidades reconocidas a nivel
                                     mundial por su alta calidad educativa.

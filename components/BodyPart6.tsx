@@ -75,10 +75,12 @@ export default function BodyPart6(){
                                 </p>                        
                             </div>
                             <div className='pt-4 pl-4'>
-                                <button className='px-2 py-1 bg-[#7070E2] rounded-full text-[#A4EDC2] text-base'
-                                    style={{fontFamily:'Museo500'}}>
-                                    Me lanzo a la aventura en Australia
-                                </button>
+                                <div className='flex justify-center sm:justify-start'>
+                                    <button className='px-2 py-1 bg-[#7070E2] rounded-full text-[#A4EDC2] text-base'
+                                        style={{fontFamily:'Museo500'}}>
+                                        Me lanzo a la aventura en Australia
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>

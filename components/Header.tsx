@@ -41,13 +41,17 @@ export default function Header(){
                         <div className="flex flex-col">
                             <div className="pt-[35%] px-[10%]">
                                 <div className="flex justify-center">
-                                    <amp-img src={img3.src} width="200" height="100"
-                                    alt={""}/>
+                                    <div className="w-[80%] h-[8%] sm:w-[100px] sm:h-[50px] md:w-[150px] md:h-[75px] lg:w-[200px] lg:h-[100px] ">
+                                        <amp-img src={img3.src} width="200" height="100" layout="responsive"
+                                        alt={""} className="w-full h-full object-cover"/>
+                                    </div>
                                 </div>
                             </div>                                      
                             <div className="pt-[70%] pb-[10%]">
                                  <div className="flex justify-center">
-                                      <button type="button" className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Start now</button>
+                                    <div className="maxs-sm:w-[200px]">
+                                      <button type="button" className="w-full inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Start now</button>
+                                    </div>
                                  </div>                                        
                             </div>
                         </div>                        
