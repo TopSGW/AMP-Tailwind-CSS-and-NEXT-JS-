@@ -7,7 +7,8 @@
     "build": "yarn next build && next export",
     "build-css": "npx tailwindcss -i styles/globals.css -o css/output.css --watch",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server":"node server.js"
   },
   "dependencies": {
     "@next/font": "^13.0.6",
