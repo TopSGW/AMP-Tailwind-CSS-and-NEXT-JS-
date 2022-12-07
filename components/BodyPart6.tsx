@@ -86,19 +86,19 @@ export default function BodyPart6(){
                 <div className='absolute inset-x-0 bottom-0'>
                     <div className='h-10 relative'>
                         <div className='absolute top-0 z-[10] min-w-full'>
-                            <div className='min-w-[80%] w-[80%] m-auto relative max-[588px]:bg-white'>
+                            <div className='w-full min-w-full md:min-w-[90%] md:w-[90%] m-auto relative h-[400px] sm:h-[500px] md:h-[600px] max-sm:bg-white'>
                                 <amp-img src={part63.src} width="780" height='600' layout='responsive'
-                                 className='w-full h-full object-cover max-[588px]:z-[-1]'/>
-                                <div className='absolute top-0'>
-                                    <div className='ml-5 mt-6 bg-[#EAAD0A] sm:w-[350px] sm:min-w-[350px]'>
+                                 className='w-full h-full object-cover max-sm:hidden'/>
+                                <div className='absolute top-0 inset-x-0 min-w-full'>
+                                    <div className='sm:mx-[5%] m-auto mt-6 w-[330px] bg-[#EAAD0A] sm:w-[350px] sm:min-w-[350px]'>
                                         <div className='px-4 py-4'>
-                                            <h1 className='text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl font-bold'
+                                            <h1 className='text-white text-base sm:text-lg md:text-xl lg:text-2xl font-bold'
                                                 style={{fontFamily:'Montserrat'}}>
                                                 Cómo te
                                                 ayudamos
                                                 en Nōmadas
                                             </h1>
-                                            <p className='text-xs leading-tight text-white lg:text-base' style={{fontFamily:'Museo500'}}>
+                                            <p className='text-xs leading-tight text-white sm:text-sm' style={{fontFamily:'Museo500'}}>
                                                 Si quieres estudiar y trabajar en
                                                 Australia, nosotros te podemos
                                                 ayudar, y lo mejor… ¡Lo hacemos
@@ -109,14 +109,14 @@ export default function BodyPart6(){
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='ml-5 mt-3 bg-[#EAAD0A] sm:w-[350px] sm:min-w-[350px]'>
+                                    <div className='sm:mx-[5%] m-auto mt-3 w-[330px] bg-[#EAAD0A] sm:w-[350px] sm:min-w-[350px]'>
                                         <div className='px-4 py-4'>
-                                            <h1 className='text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-4xl font-bold'
+                                            <h1 className='text-white text-base sm:text-lg md:text-xl lg:text-2xl font-bold'
                                                 style={{fontFamily:'Montserrat'}}>
                                                 En Nómadas nos
                                                 encargamos de:
                                             </h1>
-                                            <p className='text-xs leading-tight text-white lg:text-base' style={{fontFamily:'Museo500'}}>
+                                            <p className='text-xs leading-tight text-white sm:text-sm' style={{fontFamily:'Museo500'}}>
                                                 Ayudarte a elegir tu escuela y el curso
                                                 que más te guste. Gestionamos tus
                                                 trámites de matrícula al curso.
@@ -132,18 +132,20 @@ export default function BodyPart6(){
                                         </div>
                                     </div>
                                 </div>
-                                <div className='absolute right-0 bottom-0 h-20 w-80 md:h-30'>
-                                    <div className='mb-3 mr-3 mt-5'>
-                                        <button className='px-2 py-2 text-white bg-[#00AC95] rounded-full'
+                                <div className='absolute inset-x-0 bottom-0 min-w-full sm:mb-[36px] md:mb-[100px] lg:mb-[92px]'>
+                                    <div className='flex justify-center sm:justify-end'>
+                                    <div className='w-[320px] sm:w-[234px] sm:mr-[10px] lg:w-[320px]'>
+                                        <button className='sm:text-xs lg:text-base px-2 py-2 w-full text-white bg-[#00AC95] rounded-full'
                                             style={{fontFamily:'Museo500'}}>
                                             Quiero iniciar mi experiencia Nōmada
                                         </button>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
                             <div className='pt-3 mt-5 min-w-full bg-[#7070E2]'>
                                 <div className="mt-5 mx-[20%]">
-                                    <h1 className="text-center font-bold text-[#A4EDC2] text-lg sm:text-xl md:text-2xl lg:text-4xl">
+                                    <h1 className="text-center font-bold text-[#88bb9d] text-lg sm:text-xl md:text-2xl lg:text-4xl">
                                         Atrévete a dar el paso y vive una experiencia única en Australia
                                     </h1>
                                 </div>

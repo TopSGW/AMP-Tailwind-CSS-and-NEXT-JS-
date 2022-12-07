@@ -665,6 +665,11 @@ video {
   margin: auto;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-\[20\%\] {
   margin-left: 20%;
   margin-right: 20%;
@@ -673,6 +678,21 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-\[3\%\] {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.mx-\[5\%\] {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .mt-\[80\%\] {
@@ -705,14 +725,6 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .mt-4 {
@@ -807,6 +819,10 @@ video {
   height: 2.5rem;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .h-20 {
   height: 5rem;
 }
@@ -825,6 +841,10 @@ video {
 
 .h-40 {
   height: 10rem;
+}
+
+.h-\[400px\] {
+  height: 400px;
 }
 
 .min-h-\[350px\] {
@@ -857,14 +877,6 @@ video {
 
 .w-1 {
   width: 0.25rem;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .w-\[350px\] {
@@ -903,6 +915,18 @@ video {
   width: 15rem;
 }
 
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[330px\] {
+  width: 330px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -911,8 +935,8 @@ video {
   min-width: 300px;
 }
 
-.min-w-\[80\%\] {
-  min-width: 80%;
+.min-w-\[350px\] {
+  min-width: 350px;
 }
 
 .cursor-pointer {
@@ -1294,6 +1318,14 @@ video {
   padding-top: 4%;
 }
 
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pl-\[40px\] {
+  padding-left: 40px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1384,6 +1416,11 @@ video {
 .text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#88bb9d\] {
+  --tw-text-opacity: 1;
+  color: rgb(136 187 157 / var(--tw-text-opacity));
 }
 
 .text-gray-300 {
@@ -1508,6 +1545,21 @@ video {
   }
 }
 
+@media not all and (min-width: 640px) {
+  .max-sm\:z-\[-1\] {
+    z-index: -1;
+  }
+
+  .max-sm\:hidden {
+    display: none;
+  }
+
+  .max-sm\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+}
+
 @media (max-width: 588px) {
   .max-\[588px\]\:z-\[-1\] {
     z-index: -1;
@@ -1519,9 +1571,36 @@ video {
   }
 }
 
+@media (max-width: 460px) {
+  .max-\[460px\]\:h-\[400px\] {
+    height: 400px;
+  }
+}
+
 @media (min-width: 640px) {
+  .sm\:mx-\[5\%\] {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .sm\:mt-0 {
     margin-top: 0px;
+  }
+
+  .sm\:mb-\[36px\] {
+    margin-bottom: 36px;
+  }
+
+  .sm\:mr-\[10px\] {
+    margin-right: 10px;
+  }
+
+  .sm\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .sm\:h-\[500px\] {
+    height: 500px;
   }
 
   .sm\:min-h-full {
@@ -1532,8 +1611,20 @@ video {
     width: 33%;
   }
 
+  .sm\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .sm\:w-\[350px\] {
     width: 350px;
+  }
+
+  .sm\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .sm\:w-\[234px\] {
+    width: 234px;
   }
 
   .sm\:min-w-\[65\%\] {
@@ -1642,13 +1733,55 @@ video {
     line-height: 1.75rem;
   }
 
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
+  .md\:mb-\[28px\] {
+    margin-bottom: 28px;
+  }
+
+  .md\:mb-\[78px\] {
+    margin-bottom: 78px;
+  }
+
+  .md\:mb-\[100px\] {
+    margin-bottom: 100px;
+  }
+
+  .md\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .md\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .md\:min-w-\[80\%\] {
+    min-width: 80%;
+  }
+
+  .md\:min-w-\[90\%\] {
+    min-width: 90%;
+  }
+
   .md\:pt-\[99\.5\%\] {
     padding-top: 99.5%;
   }
@@ -1676,6 +1809,11 @@ video {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 778px) {
@@ -1693,6 +1831,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-\[92px\] {
+    margin-bottom: 92px;
+  }
+
+  .lg\:w-\[320px\] {
+    width: 320px;
+  }
+
   .lg\:pt-\[102\%\] {
     padding-top: 102%;
   }
