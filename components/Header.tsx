@@ -133,7 +133,7 @@ export default function Header(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="top-0 right-0 fixed min-w-[70%] z-[99999]">
+                            <div className="top-0 right-0 fixed min-w-[70%] z-[998]">
                                 <div className="relative">
                                     <div className="flex justify-end">
                                         <div className="mt-5 mr-5 w-11 h-11 cursor-pointer" on="tap:AMP.setState({myState:{activeState:false}})" 
