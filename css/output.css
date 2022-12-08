@@ -661,16 +661,12 @@ video {
   z-index: 20;
 }
 
-.z-\[99999\] {
-  z-index: 99999;
+.z-\[998\] {
+  z-index: 998;
 }
 
 .z-10 {
   z-index: 10;
-}
-
-.z-\[998\] {
-  z-index: 998;
 }
 
 .m-auto {

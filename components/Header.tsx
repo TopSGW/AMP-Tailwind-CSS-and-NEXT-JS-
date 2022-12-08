@@ -59,7 +59,7 @@ export default function Header(){
                     <div className="min-w-full sm:flex-[1_1_70%] sm:min-w-[70%] relative">
                         <amp-img src={img2.src} height="250" width="200" layout="responsive" className="block object-cover w-full h-full object-center z-[-1] absolute"/>
                         <div className="relative">
-                            <div className="min-w-[300px] sm:min-w-[45%] inset-y-0 right-0  h-full z-[999] absolute" hidden
+                            {/* <div className="min-w-[300px] sm:min-w-[45%] inset-y-0 right-0  h-full z-[999] absolute" hidden
                                  data-amp-bind-hidden="myState.activeState" >
                                 <div className="flex flex-col bg-black pl-6 pr-20">
                                     <div className="pt-[10%]">
@@ -132,7 +132,7 @@ export default function Header(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="top-0 right-0 fixed min-w-[70%] z-[998]">
                                 <div className="relative">
                                     <div className="flex justify-end">
