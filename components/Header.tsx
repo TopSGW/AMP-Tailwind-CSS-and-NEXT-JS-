@@ -41,16 +41,16 @@ export default function Header(){
                         <div className="flex flex-col">
                             <div className="pt-[35%] px-[10%]">
                                 <div className="flex justify-center">
-                                    <div className="w-[80%] h-[8%] sm:w-[100px] sm:h-[50px] md:w-[150px] md:h-[75px] lg:w-[200px] lg:h-[100px] ">
-                                        <amp-img src={img3.src} width="200" height="100" layout="responsive"
+                                    <div className="w-[200px] h-[100px]">
+                                        <amp-img src={img3.src} width="200" height="100"
                                         alt={""} className="w-full h-full object-cover"/>
                                     </div>
                                 </div>
                             </div>                                      
                             <div className="pt-[70%] pb-[10%]">
                                  <div className="flex justify-center">
-                                    <div className="maxs-sm:w-[200px]">
-                                      <button type="button" className="w-full inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Start now</button>
+                                    <div className="max-sm:w-[200px]">
+                                      <button type="button" className="text-base w-full inline-block px-6 py-2.5 bg-blue-600 text-white font-medium leading-tight rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Start now</button>
                                     </div>
                                  </div>                                        
                             </div>
@@ -133,11 +133,87 @@ export default function Header(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="pt-[5%] pr-[5%]">
-                                <div className="flex justify-end">
-                                    <div className="w-11 h-11 cursor-pointer" on="tap:AMP.setState({myState:{activeState:false}})" 
-                                        tabIndex={-1} role="button">
-                                        <amp-img height="50" width="50" src={menuButton.src} alt={""}/>
+                            <div className="top-0 right-0 fixed min-w-[70%] z-[99999]">
+                                <div className="relative">
+                                    <div className="flex justify-end">
+                                        <div className="mt-5 mr-5 w-11 h-11 cursor-pointer" on="tap:AMP.setState({myState:{activeState:false}})" 
+                                            tabIndex={-1} role="button">
+                                            <amp-img height="50" width="50" src={menuButton.src} alt={""}/>
+                                        </div>
+                                    </div>
+                                    <div className="min-w-[300px] sm:min-w-[45%] inset-y-0 right-0  h-full z-[999] absolute" hidden
+                                        data-amp-bind-hidden="myState.activeState" >
+                                            <div className="flex flex-col bg-black pl-6 pr-20">
+                                                <div className="pt-[10%]">
+                                                    <div className="flex">
+                                                        <div className="relative w-full">
+                                                            <input type="search" className="block p-2.5 w-full z-20 text-sm text-gray-300 bg-black border border-gray-300 rounded-full"      
+                                                                    placeholder="Search" required/>
+                                                            <button type="submit" className="absolute top-0 right-0 p-2.5 text-sm font-medium text-white rounded-full  hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                                                <svg aria-hidden="true" className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                                                <span className="sr-only">Search</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="pt-5">
+                                                    <h1 className="text-base md:text-xl lg:text-2xl" 
+                                                        style={{color:'#A4EDC2',fontFamily:'MontserratThin'}}>experiencia</h1>
+                                                </div>
+                                                <div className="pt-5">
+                                                    <amp-img src={menuImg.src} height="40" width="170" alt={""}/>
+                                                </div>
+                                                <div className="mt-5">
+                                                    <h1 className="text-white" style={{fontFamily:'Museo300'}}>
+                                                        En Nómadas nos dedicamos a <br></br>
+                                                        cumplir los sueños de miles de<br />
+                                                        aventureros. Te ayudamos con<br></br>
+                                                        tu visa para que puedas estudiar<br></br>
+                                                        y trabajar en países como<br></br>
+                                                        Australia, Canadá, Malta, Irlanda<br></br>
+                                                        y Nueva Zelanda.<br></br>
+                                                        Lánzate a tener una experiencia<br></br>
+                                                        nómada y vive la aventura de<br></br>
+                                                        tu vida.
+                                                    </h1>
+                                                </div>
+                                                <div className="mt-5">
+                                                    <div className="h-2 w-[250px] border-b-2 border-b-gray-500"></div>
+                                                </div>
+                                                <div className="pt-5">
+                                                    <h1 className="text-base sm:text-lg md:text-xl lg:text-xl" 
+                                                        style={{color:"#A4EDC2",fontFamily:'MontserratThin'}}>encuéntranos</h1>
+                                                </div>
+                                                <div className="pt-5">
+                                                    <div className="flex justify-start">
+                                                        <div className="w-7 h-7">
+                                                            <amp-img height="20" width="20" src={noticeImg.src} alt={""}/>
+                                                        </div>
+                                                        <div className="ml-5">
+                                                            <a href="/menu" className="text-white text-base underline decoration-slate-100"
+                                                            style={{fontFamily:'Museo300'}}>contáctanos</a>
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex justify-start">
+                                                        <div className="w-7 h-7">
+                                                            <amp-img height="20" width="20" src={houseImg.src} alt={""}/>
+                                                        </div>
+                                                        <div className="ml-5">
+                                                            <a className="text-white text-base underline decoration-slate-100"
+                                                            style={{fontFamily:'Museo300'}}>nuestras oficinas</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="mt-5 mb-[10%]">
+                                                    <div className="flex justify-start">
+                                                        <div className="w-7 h-7" on="tap:AMP.setState({myState:{activeState:true}})" 
+                                                        role="button" tabIndex={-1}>
+                                                        <amp-img height="25" width="25" src={menuBackImg.src} alt={""} layout="responsive"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -11,7 +11,7 @@ export default function BodyPart1(){
                         <div className="flex justify-evenly">
                             <div className="pt-5 w-2/3">
                                 <h1 className="text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl" 
-                                    style={{color:'#0085A9',fontFamily:'Montserrat'}}>
+                                    style={{color:'#0085A9'}}>
                                     ¿Por qué vivir<br/>
                                     una experiencia<br/>
                                     Nómada en<br/>
@@ -28,21 +28,18 @@ export default function BodyPart1(){
                             </div>
                         </div>
                         <div className="pt-2">
-                            <p className="text-xs leading-tight text-black min-[778px]:text-sm min-[922px]:text-base min-[1136px]:text-[17px] xl:text-lg"
-                                style={{fontFamily:'Museo500'}}>
+                            <p className="text-xs leading-tight text-black min-[778px]:text-sm min-[922px]:text-base min-[1136px]:text-[17px] xl:text-lg">
                                 Nómadas es un equipo conformado de muchos jóvenes que
                                 como tú, han vivido la aventura de emigrar a otro país.<span className="bg-amber-100"> Creemos
                                 en que salir de la zona de confort y lanzarse a vivir una
                                 experiencia nómada es algo que te cambia la vida.</span>
                             </p><div className="h-3 w-1"/>
-                            <p className="text-xs leading-tight text-black md:text-sm lg:text-base min-[1136px]:text-[17px] xl:text-lg"
-                                style={{fontFamily:'Museo500'}}>
+                            <p className="text-xs leading-tight text-black md:text-sm lg:text-base min-[1136px]:text-[17px] xl:text-lg">
                                 <span className="bg-amber-100">Tenemos oficinas en Australia, Canadá, Colombia, Argentina y
                                 Chile</span> para darte todo el apoyo que necesitas a la hora de tomar la
                                 decisión de vivir y estudiar en otro país.
                             </p><div className="h-2 w-1"/>
-                            <p className="text-xs leading-tight text-black md:text-sm lg:text-base min-[1136px]:text-[17px] xl:text-lg"
-                                style={{fontFamily:'Museo500'}}>
+                            <p className="text-xs leading-tight text-black md:text-sm lg:text-base min-[1136px]:text-[17px] xl:text-lg">
                                 En Australia estamos en: Melbourne, Sydney y Adelaide. Nuestro
                                 equipo es multicultural y está formado por colombianos,
                                 chilenos, mexicanos, argentinos, japoneses, peruanos y muchas

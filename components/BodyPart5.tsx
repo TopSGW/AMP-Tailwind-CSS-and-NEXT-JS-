@@ -6,7 +6,7 @@ import part55 from '../img/part55.png';
 import part56 from '../img/part56.png';
 import part57 from '../img/part57.png';
 import leftImg from '../img/Asset3.png'
-import { url } from 'inspector';
+
 export default function BodyPart5(){
     return(
         <div className="w-screen">

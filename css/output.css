@@ -599,6 +599,10 @@ video {
   position: static;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -659,6 +663,10 @@ video {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-\[99999\] {
+  z-index: 99999;
 }
 
 .m-auto {
@@ -793,6 +801,10 @@ video {
 
 .mt-\[2\%\] {
   margin-top: 2%;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
 }
 
 .block {
@@ -1013,6 +1025,10 @@ video {
 
 .min-w-\[350px\] {
   min-width: 350px;
+}
+
+.min-w-\[70\%\] {
+  min-width: 70%;
 }
 
 .cursor-pointer {
@@ -1628,6 +1644,10 @@ video {
 
   .max-sm\:hidden {
     display: none;
+  }
+
+  .max-sm\:w-\[200px\] {
+    width: 200px;
   }
 
   .max-sm\:bg-white {
