@@ -1,6 +1,7 @@
 import menu1 from '../img/menu1.png';
 import menu2 from '../img/menu2.png';
 import menu3 from '../img/menu3.png'
+import Rside2 from '../img/Rside2.png';
 
 export default function Menupage(){
     return(
@@ -57,11 +58,11 @@ export default function Menupage(){
                         </div>
                     </div>
                 </div>
-                <div className="min-w-full sm:flex-[1_1_67%] sm:min-w-[67%] relative">
+                <div className="min-w-full sm:flex-[1_1_67%] sm:min-w-[67%] h-[420px] min-[452px]:h-[480px] max-h[] sm:h-full relative">
                     <amp-img src={menu1.src} className='w-full h-full object-cover' 
                         width="1765" height='1460' layout='responsive'/>
                     <div className='absolute top-0 inset-x-0'>
-                        <div className='ml-10 mt-10'>
+                        <div className='ml-6 mt-7 min-[452px]:ml-10 min-[452px]:mt-10'>
                             <div>
                                 <amp-img src={menu2.src} width="200" height='40'/>
                             </div>
@@ -81,6 +82,13 @@ export default function Menupage(){
                                 <h1 className='text-base text-black'>
                                     Emai<span className='font-bold'>l</span> Us</h1>
                                 <p className='mt-1 text-xs'>name@compony.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='absolute top-0 right-0 min-w-full h-[300px]'>
+                        <div className='mt-[5%] min-[480px]:mt-[2%] h-[300px] flex justify-end'>
+                            <div className='w-[40%] h-[75%]'>
+                                <amp-img src={Rside2.src} width="782" height='1429' layout='responsive'/>
                             </div>
                         </div>
                     </div>
