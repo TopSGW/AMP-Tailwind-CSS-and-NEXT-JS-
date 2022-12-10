@@ -8,13 +8,14 @@ export default function Menupage(){
         <div className="w-screen">
             <div className="flex flex-wrap">
                 <div className="min-w-full sm:flex-[1_1_33%] sm:min-w-[33%] bg-[#1CA591]">
-                    <div className='mt-10 w-[200px] mx-auto'>
-                        <div className='flex justify-start'>
-                            <div className=''>
-                                <amp-img src={menu3.src} width="30" height='30'/>
+                    <div className='mt-10 w-[200px] sm:mt-[8.5vw] sm:w-[80%] min-[1500px]:w-[400px] mx-auto'>
+                        <div className='flex justify-between'>
+                            <div className='w-[8%] self-center'>
+                                <amp-img src={menu3.src} width="64" height='58' layout='responsive'
+                                    className='w-full h-full object-cover'/>
                             </div>
-                            <div className='ml-3'>
-                                <h1 className='text-base text-white font-bold'
+                            <div className='w-[87%]'>
+                                <h1 className='text-lg text-white font-bold sm:text-[3vw] min-[1750px]:text-[45px]'
                                  style={{fontFamily:'MontserratRegular'}}>contáctanos</h1>
                             </div>
                         </div>
