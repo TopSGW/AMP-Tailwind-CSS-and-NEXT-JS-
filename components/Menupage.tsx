@@ -59,35 +59,35 @@ export default function Menupage(){
                         </div>
                     </div>
                 </div>
-                <div className="min-w-full sm:flex-[1_1_67%] sm:min-w-[67%] h-[420px] min-[452px]:h-[480px] max-h[] sm:h-full relative">
+                <div className="min-w-full sm:flex-[1_1_67%] sm:min-w-[67%] max-sm:h-[420px] sm:h-full relative">
                     <amp-img src={menu1.src} className='w-full h-full object-cover' 
                         width="1765" height='1460' layout='responsive'/>
                     <div className='absolute top-0 inset-x-0'>
-                        <div className='ml-6 mt-7 min-[452px]:ml-10 min-[452px]:mt-10'>
+                        <div className='ml-6 mt-7 sm:mt-[8.5vw] min-[452px]:ml-10 min-[452px]:mt-10'>
                             <div>
                                 <amp-img src={menu2.src} width="200" height='40'/>
                             </div>
-                            <div className='mt-[30px]'>
-                                <h1 className='text-base text-black'>Address</h1>
-                                <p className='mt-2 text-xs text-black'>New York, USA</p>
-                                <p className='mt-1 text-xs text-black'>
+                            <div className='mt-[30px] sm:mt-[1vw]'>
+                                <h1 className='text-base sm:text-[2.5vw] sm:leading-[2.2vw] text-black'>Address</h1>
+                                <p className='mt-1 text-xs sm:text-[1.7vw] sm:leading-[1.4vw] text-black'>New York, USA</p>
+                                <p className='mt-1 text-xs sm:text-[1.7vw] sm:leading-[1.4vw] text-black'>
                                     Macdonough St. 23a, Second floor
                                 </p>
                             </div>
-                            <div className='mt-[12px]'>
-                                <h1 className='text-base text-black'>
+                            <div className='mt-[12px] sm:mt-[3vw]'>
+                                <h1 className='text-base text-black sm:text-[2.5vw] sm:leading-[2.2vw]'>
                                     Ca<span className='font-bold'>ll</span> Us</h1>
-                                <p className='mt-1 text-xs'>(212) 948-2621</p>
+                                <p className='mt-1 text-xs sm:text-[1.7vw] sm:leading-[1.4vw]'>(212) 948-2621</p>
                             </div>
-                            <div className='mt-[12px]'>
-                                <h1 className='text-base text-black'>
+                            <div className='mt-[12px] sm:mt-[3vw]'>
+                                <h1 className='text-base text-black sm:text-[2.5vw] sm:leading-[2.2vw]'>
                                     Emai<span className='font-bold'>l</span> Us</h1>
-                                <p className='mt-1 text-xs'>name@compony.com</p>
+                                <p className='mt-1 text-xs sm:text-[1.7vw] sm:leading-[1.4vw]'>name@compony.com</p>
                             </div>
                         </div>
                     </div>
                     <div className='absolute top-0 right-0 min-w-full h-[300px]'>
-                        <div className='mt-[5%] min-[480px]:mt-[2%] h-[300px] flex justify-end'>
+                        <div className='mt-[5%] sm:mt-[5vw] min-[480px]:mt-[2%] h-[300px] flex justify-end'>
                             <div className='w-[40%] h-[75%]'>
                                 <amp-img src={Rside2.src} width="782" height='1429' layout='responsive'/>
                             </div>
