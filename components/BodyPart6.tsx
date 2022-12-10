@@ -15,68 +15,97 @@ export default function BodyPart6(){
                         className='w-full h-full object-cover'/>
                     </div>
                     <div className="min-w-full sm:flex-[1_1_67%] sm:min-w-[67%] bg-[#28B5A0]">
-                        <div className='pl-[5%] pr-[10%] pt-[3%] pb-[10%] min-w-full min-h-full'>
-                            <h1 className='text-base sm:text-lg md:text-2xl text-[#A4EDC2] font-bold'>
+                        <div className='pl-[5%] pr-[10%] pt-[6vw] pb-[10%] min-w-full min-h-full'>
+                            <h1 className='text-[4.4vw] sm:text-[3.2vw] text-[#A4EDC2] font-bold'
+                                style={{fontFamily:"Montserrat"}}>
                                 ¿Qué requisitos necesitas
                                 para estudiar en australia?
                             </h1>
-                            <div className='flex flex-wrap pt-[2%]'>
-                                <div className=''><amp-img src={part62.src} width="10" height="12" className=''/></div>
-                                                        
-                                <p className='self-center pl-[3%] text-base text-white font-medium leading-4'>Tener un pasaporte vigente</p>
-                            </div>
-                            <div className='flex justify-start'>
-                                <div>
-                                    <amp-img src={part62.src} width="10" height="12" className='self-start'/>
+                            <div className='flex justify-between pt-[2%]'>
+                                <div className='w-[3%] min-w-[3%] pt-[1.2%]'>
+                                    <amp-img src={part62.src} width="10" height="12" className='' layout='responsive'/>
                                 </div>
-                                    <p className='pl-[3%] text-base text-white font-medium'>
+                                
+                                <div className='w-[95%] min-w-[95%]'>
+                                    <p className='pl-[3%] text-[3.5vw] sm:text-[2.3vw] text-white'
+                                    style={{fontFamily:"Museo500"}}>
+                                    Tener un pasaporte vigente</p>
+                                </div>
+                            </div>
+                            <div className='flex justify-between'>
+                                <div className='w-[3%] min-w-[3%] pt-[1.2%]'>
+                                    <amp-img src={part62.src} width="10" height="12" layout='responsive'/>
+                                </div>
+                                <div className='w-[95%] min-w-[95%]'>
+                                    <p className='pl-[3%] text-[3.5vw] sm:text-[2.3vw] text-white'
+                                        style={{fontFamily:'Museo500'}}>
                                         Ser mayor de 18 años si tu objetivo es trabajar y estudiar
                                         en Australia. 
                                     </p>                        
-                            </div>
-                            <div className='flex justify-start'>
-                                <div><amp-img src={part62.src} width="10" height="12" className=''/></div>
-                                <p className='pl-[3%] text-base text-white font-medium'>
-                                    Tener una visa de estudiante aprobada y vigente.
-                                </p>                        
-                            </div>
-                            <div className='flex justify-start'>
-                                <div> <amp-img src={part62.src} width="10" height="12" className=''/> </div>
-                                <p className='pl-[3%] text-base text-white font-medium'>
-                                    Tener un seguro médico para estudiantes.
-                                </p>                        
-                            </div>
-                            <div className='flex justify-start'>
-                                <div>                            
-                                    <amp-img src={part62.src} width="10" height="12" className=''/>
                                 </div>
-                                <p className='pl-[3%] text-base text-white font-medium'>
-                                    Dependiendo de tu nacionalidad deberás hacerte
-                                    exámenes biométricos. 
-                                </p>                        
                             </div>
-                            <div className='flex justify-start'>
-                                <div>
-                                    <amp-img src={part62.src} width="10" height="12" className=''/>
+                            <div className='flex justify-between'>
+                                <div className='w-[3%] min-w-[3%] pt-[1.2%]'>
+                                    <amp-img src={part62.src} width="10" height="12" layout='responsive'/>
+                                </div>
+                                <div className='w-[95%] min-w-[95%]'>
+                                    <p className='pl-[3%] text-[3.5vw] sm:text-[2.3vw] text-white'
+                                        style={{fontFamily:'Museo500'}}>
+                                        Tener una visa de estudiante aprobada y vigente.
+                                    </p>                        
+                                </div>
+                            </div>
+                            <div className='flex justify-between'>
+                                <div className='w-[3%] min-w-[3%] pt-[1.2%]'> 
+                                    <amp-img src={part62.src} width="10" height="12" layout='responsive'/> 
+                                </div>
+                                <div className='w-[95%] min-w-[95%]'>
+                                    <p className='pl-[3%] text-[3.5vw] sm:text-[2.3vw] text-white'
+                                        style={{fontFamily:'Museo500'}}>
+                                        Tener un seguro médico para estudiantes.
+                                    </p>                        
+                                </div>
+                            </div>
+                            <div className='flex justify-between'>
+                                <div className='w-[3%] min-w-[3%] pt-[1.2%]'>                            
+                                    <amp-img src={part62.src} width="10" height="12" layout='responsive'/>
+                                </div>
+                                <div className='w-[95%] min-w-[95%]'>
+                                    <p className='pl-[3%] text-[3.5vw] sm:text-[2.3vw] text-white'
+                                        style={{fontFamily:'Museo500'}}>
+                                        Dependiendo de tu nacionalidad deberás hacerte
+                                        exámenes biométricos. 
+                                    </p>                        
+                                </div>
+                            </div>
+                            <div className='flex justify-between'>
+                                <div className='w-[3%] min-w-[3%] pt-[1.2%]'>
+                                    <amp-img src={part62.src} width="10" height="12" layout='responsive'/>
+                                </div>
+                                <div className='w-[95%] min-w-[95%]'>
+                                    <p className='pl-[3%] text-[3.5vw] sm:text-[2.3vw] text-white
+                                        ' style={{fontFamily:'Museo500'}}>
+                                        Nivel de Inglés dependiendo del curso que quieras estudiar.
+                                    </p>                        
                                 </div>                        
-                                <p className='pl-[3%] text-base text-white font-medium'>
-                                    Nivel de Inglés dependiendo del curso que quieras estudiar.
-                                </p>                        
                             </div>
-                            <div className='flex justify-start'>
-                                <div>
-                                    <amp-img src={part62.src} width="10" height="12" className=''/>
+                            <div className='flex justify-between'>
+                                <div className='w-[3%] min-w-[3%] pt-[1.2%]'>
+                                    <amp-img src={part62.src} width="10" height="12" layout='responsive'/>
+                                </div>
+                                <div className='w-[95%] min-w-[95%]'>
+                                    <p className='pl-[3%] text-[3.5vw] sm:text-[2.3vw] text-white
+                                    ' style={{fontFamily:'Museo500'}}>
+                                        Para aplicar a tu visa de estudiante para Australia deberás
+                                        escribir una carta llamada GTE (Genuine Temporary
+                                        Entrant), allí debes explicar por qué quieres estudiar en
+                                        Australia, no te preocupes, 
+                                    </p>                        
                                 </div>                        
-                                <p className='pl-[3%] text-base text-white font-medium'>
-                                    Para aplicar a tu visa de estudiante para Australia deberás
-                                    escribir una carta llamada GTE (Genuine Temporary
-                                    Entrant), allí debes explicar por qué quieres estudiar en
-                                    Australia, no te preocupes, 
-                                </p>                        
                             </div>
-                            <div className='pt-4 pl-4'>
+                            <div className='pt-[2.2vw] sm:pt-[1.3vw] pb-[1.2vw] sm:pb-0 pl-4'>
                                 <div className='flex justify-center sm:justify-start'>
-                                    <button className='px-2 py-1 bg-[#7070E2] rounded-full text-[#A4EDC2] text-base'
+                                    <button className='text-[2.5vw] sm:text-[1.9vw] px-2 sm:px-[1.3vw] py-1 bg-[#7070E2] rounded-full text-[#A4EDC2]'
                                         style={{fontFamily:'Museo500'}}>
                                         Me lanzo a la aventura en Australia
                                     </button>
@@ -88,19 +117,20 @@ export default function BodyPart6(){
                 <div className='absolute inset-x-0 bottom-0'>
                     <div className='h-10 relative'>
                         <div className='absolute top-0 z-[10] min-w-full'>
-                            <div className='w-full min-w-full md:min-w-[90%] md:w-[90%] m-auto relative h-[400px] sm:h-[500px] md:h-[600px] max-sm:bg-white'>
+                            <div className='w-full min-w-full md:min-w-[90%] md:w-[90%] m-auto relative h-[400px] sm:h-full max-sm:bg-white'>
                                 <amp-img src={part63.src} width="780" height='600' layout='responsive'
                                  className='w-full h-full object-cover max-sm:hidden'/>
-                                <div className='absolute top-0 inset-x-0 min-w-full'>
-                                    <div className='sm:mx-[5%] m-auto mt-6 w-[330px] bg-[#EAAD0A] sm:w-[350px] sm:min-w-[350px]'>
-                                        <div className='px-4 py-4'>
-                                            <h1 className='text-white text-base sm:text-lg md:text-xl lg:text-2xl font-bold'
+                                <div className='absolute top-0 inset-x-0'>
+                                    <div className='sm:mx-[5%] m-auto mt-6 sm:mt-[4vw] w-[330px] bg-[#EAAD0A] sm:w-[45%] sm:min-w-[45%]'>
+                                        <div className='px-4 sm:px-[8%] py-4 sm:pt-[2.5vw] sm:pb-[1.9vw]'>
+                                            <h1 className='text-white text-base sm:text-[3.9vw] sm:leading-[3.8vw] 
+                                                md:text-[3.31vw] md:leading-[3.6vw]'
                                                 style={{fontFamily:'Montserrat'}}>
                                                 Cómo te
                                                 ayudamos
                                                 en Nōmadas
                                             </h1>
-                                            <p className='text-xs leading-tight text-white sm:text-sm' style={{fontFamily:'Museo500'}}>
+                                            <p className='text-xs leading-tight text-white sm:text-[1.9vw] md:text-[1.6vw]' style={{fontFamily:'Museo500'}}>
                                                 Si quieres estudiar y trabajar en
                                                 Australia, nosotros te podemos
                                                 ayudar, y lo mejor… ¡Lo hacemos
@@ -111,14 +141,15 @@ export default function BodyPart6(){
                                             </p>
                                         </div>
                                     </div>
-                                    <div className='sm:mx-[5%] m-auto mt-3 w-[330px] bg-[#EAAD0A] sm:w-[350px] sm:min-w-[350px]'>
-                                        <div className='px-4 py-4'>
-                                            <h1 className='text-white text-base sm:text-lg md:text-xl lg:text-2xl font-bold'
+                                    <div className='sm:mx-[5%] m-auto mt-3 w-[330px] bg-[#EAAD0A] sm:w-[45%] sm:min-w-[45%]'>
+                                        <div className='px-4 py-4 sm:px-[8%] sm:pt-[2.5vw] sm:pb-[1.9vw]'>
+                                            <h1 className='text-white text-base sm:text-[3.9vw] sm:leading-[3.8vw]
+                                                md:text-[3.31vw] md:leading-[3.6vw]'
                                                 style={{fontFamily:'Montserrat'}}>
                                                 En Nómadas nos
                                                 encargamos de:
                                             </h1>
-                                            <p className='text-xs leading-tight text-white sm:text-sm' style={{fontFamily:'Museo500'}}>
+                                            <p className='text-xs leading-tight text-white sm:text-[1.9vw] md:text-[1.6vw]' style={{fontFamily:'Museo500'}}>
                                                 Ayudarte a elegir tu escuela y el curso
                                                 que más te guste. Gestionamos tus
                                                 trámites de matrícula al curso.
@@ -134,10 +165,10 @@ export default function BodyPart6(){
                                         </div>
                                     </div>
                                 </div>
-                                <div className='absolute inset-x-0 bottom-0 min-w-full sm:mb-[36px] md:mb-[100px] lg:mb-[92px]'>
+                                <div className='absolute inset-x-0 bottom-0 min-w-full sm:mb-[7.5vw] md:mb-[7.3vw] sm:pr-[2.4vw] md:pr-[2.1vw]'>
                                     <div className='flex justify-center sm:justify-end'>
-                                    <div className='w-[320px] sm:w-[234px] sm:mr-[10px] lg:w-[320px]'>
-                                        <button className='sm:text-xs lg:text-base px-2 py-2 w-full text-white bg-[#00AC95] rounded-full'
+                                    <div className='max-sm:w-[320px]'>
+                                        <button className='sm:text-[1.7vw] px-2 py-2 text-white bg-[#00AC95] rounded-full'
                                             style={{fontFamily:'Museo500'}}>
                                             Quiero iniciar mi experiencia Nōmada
                                         </button>

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Museo500";
+    src: url('../fonts/Museo500/Museo500.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/static/Montserrat-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "GothamLight";
+    src: url('../fonts/Gotham/GothamLight/HoeflerType/GothamLight.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "MontserratRegular";
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Museo300";
+    src: url('../fonts/Museo300/Museo300.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "MontserratThin";
+    src: url('../fonts/Montserrat/static/Montserrat-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "GothamBlack";
+    src: url('../fonts/Gotham/GothamBlack/HoeflerType/GothamBlack.otf');
+    font-weight: normal;
+    font-style: normal;
+  }

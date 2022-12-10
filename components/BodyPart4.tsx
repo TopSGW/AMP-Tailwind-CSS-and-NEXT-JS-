@@ -1,24 +1,24 @@
 import part41 from '../img/part41.png';
 export default function BodyPart4(){
     return(
-        <div className="w-screen h-30 bg-[#00AC95]">
-            <div className="ml-[10%] mr-[20%]">
-                <div className="flex flex-wrap">
-                    <div className="min-w-full mt-5 sm:min-w-[20%] sm:flex-[1_1_20%] sm:mt-0">
-                        <div className='flex justify-center h-full'>
-                            <amp-img src={part41.src} width="30" height='60' className='block self-center w-full h-full'/>
+        <div className="w-screen h-30 bg-[#00AC86]">
+            <div className="mx-[15%]">
+                <div className="flex max-sm:flex-wrap sm:justify-between">
+                    <div className="min-w-full mt-5 sm:min-w-[10%] sm:w-[10%] sm:mt-[3.5vw] 
+                        sm:mb-[2.5vw] self-center">
+                        <div className='flex justify-center'>
+                            <div className='w-[10%] sm:w-[80%]'>
+                                <amp-img src={part41.src} width="211" height='296' layout='responsive' className='block self-center w-full h-full'/>
+                            </div>
                         </div>
                     </div>
-                    <div className='min-w-full mb-5 mt-5 sm:min-w-[80%] sm:flex-[1_1_80%]'>
-                        <h1 className='text-lg text-[#A4EDC2] font-bold text-center'
+                    <div className='min-w-full mb-5 mt-5 sm:min-w-[70%] sm:w-[70%] self-center'>
+                        <h1 className='text-lg font-extrabold text-[#A4EDC2] text-center 
+                            sm:text-[4.4vw] sm:leading-[4.2vw]'
                             style={{fontFamily:'Montserrat'}}>
-                            Contácta AHORA 
+                            Contácta AHORA con un guía Nōmada  
                         </h1>
-                        <h1 className='text-lg text-[#A4EDC2] font-bold text-center'
-                            style={{fontFamily:'Montserrat'}}>
-                            con un guía Nōmada
-                        </h1>
-                        <div className="flex rounded-full bg-[#86efac] text-white w-full">
+                        <div className="mt-[1vw] flex rounded-full bg-[#86efac] text-white w-full">
                             <input
                                 type="search"
                                 className="w-full bg-transparent px-4 py-1 text-white outline-none focus:outline-none"
